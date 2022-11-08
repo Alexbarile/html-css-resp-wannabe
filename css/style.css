@@ -127,3 +127,22 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+@media screen and (max-width: 768px) {
+    .site-header{
+        flex-wrap: wrap;
+    }
+
+    .text-center{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+
+    .why-us{
+        display: flex;
+        text-align: center;
+    }
+}
+
